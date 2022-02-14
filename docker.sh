@@ -16,7 +16,3 @@ sudo apt-get install docker-ce -y
 #sudo systemctl status docker
 
 sudo chmod 777 /var/run/docker.sock
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
