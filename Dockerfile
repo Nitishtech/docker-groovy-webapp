@@ -1,6 +1,5 @@
 FROM centos:latest
-RUN wget 'http://mirror.centos.org/centos/8-stream/BaseOS/x86_64/os/Packages/centos-gpg-keys-8-3.el8.noarch.rpm'
-sudo rpm -i 'centos-gpg-keys-8-3.el8.noarch.rpm'
+RUN wget 'http://mirror.centos.org/centos/8-stream/BaseOS/x86_64/os/Packages/centos-gpg-keys-8-3.el8.noarch.rpm' 
 RUN apt-get install java -y
 RUN mkdir /opt/tomcat/
 WORKDIR /opt/tomcat
