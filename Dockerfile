@@ -1,5 +1,5 @@
 FROM  centos:latest
-MAINTAINER nitish@gmail.com
+MAINTAINER nitishgupta@gmail.com
 RUN yum install -y httpd \
  zip\
  unzip
@@ -13,7 +13,7 @@ EXPOSE 80
  
  
 # FROM  centos:latest
-# MAINTAINER nitish@gmail.com
+# MAINTAINER nitishgupta@gmail.com
 # RUN yum install -y httpd \
 #  zip\
 #  unzip
